@@ -6,7 +6,10 @@ A simple To-Do List application built with HTML, CSS, and JavaScript. This proje
 ## Usage
 
 ```javascript
-import foobar
+const inputBox = document.getElementById("input-box");
+const listContainer = document.getElementById("list-container");
+const completedCounter = document.getElementById("completed-counter");
+const uncompletedCounter = document.getElementById("uncompleted-counter");
 
 # function addTask() {
   const task = inputBox.value.trim();
